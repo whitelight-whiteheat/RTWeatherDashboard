@@ -1,0 +1,121 @@
+/* General Reset */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Section */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    flex: 1 1 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    flex: 1 1 auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #357abd;
+  }
+  
+  /* Weather Display */
+  #weather-display {
+    margin-top: 20px;
+  }
+  
+  #current-weather, #forecast {
+    margin-bottom: 20px;
+  }
+  
+  #current-weather h2, #forecast h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #4a90e2;
+  }
+  
+  #current-weather p, #forecast ul {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  #forecast ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #forecast li {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #forecast li p {
+    margin: 5px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
